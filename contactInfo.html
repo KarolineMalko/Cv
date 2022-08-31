@@ -1,0 +1,33 @@
+<html>
+    <style>
+        body {background-color: rgb(133, 197, 189);}
+        hr {   border: 0;
+               height: 0; /* Firefox... */
+               box-shadow: 0 0 10px 1px rgb(216, 242, 244);}
+        /*div{background-color: rgb(176, 230, 223);}*/
+        input{background-color: rgb(194, 228, 224);}
+        textarea{background-color:rgb(194, 228, 224);}
+        
+
+    </style>
+    <body>
+        <h1>
+            Email
+            Mobilephone
+        </h1>
+        <form action="mailto:karoline@gmail.com" method="post">
+            <div class="">
+                <label for="name">Name</label><br>
+                <input type="text" name="YourName" id="name" placeholder="Your name"><br>
+                <hr>
+                <label for="email">Email</label><br>
+                <input type="email" name="YourEmail" id="email" placeholder="Your email address"><br>
+                <hr>
+                <lable  for="message" id="message" name ="message" placeholder="">Your message</lable><br>
+                <textarea name="YourMesssage" id="text" placeholder="Write your message here" rows="10" cols="50"></textarea><br><br>
+                <input type="submit" value="Submit"  /><br>
+                <hr>
+            </div>
+        </form>
+    </body>
+</html>
